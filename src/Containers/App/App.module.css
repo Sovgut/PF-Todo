@@ -1,0 +1,55 @@
+.root {
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  background: white;
+  min-width: 300px;
+
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.add {
+  display: grid;
+  grid-template-columns: auto max-content;
+  gap: 0.5rem;
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.button {
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.button:focus,
+.button:hover {
+  background: rgb(70, 70, 70);
+}
+
+.button:active {
+  background: rgb(20, 20, 20);
+}
